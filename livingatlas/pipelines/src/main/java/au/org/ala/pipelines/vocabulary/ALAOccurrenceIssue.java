@@ -23,6 +23,8 @@ public enum ALAOccurrenceIssue implements InterpretationRemark {
 
   STATE_COORDINATE_MISMATCH(
       InterpretationRemarkSeverity.WARNING, TermsGroup.COORDINATES_COUNTRY_TERMS),
+  COUNTRY_COORDINATE_MISMATCH(
+      InterpretationRemarkSeverity.WARNING, TermsGroup.COORDINATES_COUNTRY_TERMS),
   UNKNOWN_COUNTRY_NAME(InterpretationRemarkSeverity.WARNING, TermsGroup.COORDINATES_COUNTRY_TERMS),
   COORDINATES_CENTRE_OF_COUNTRY(
       InterpretationRemarkSeverity.WARNING, TermsGroup.COORDINATES_COUNTRY_TERMS),
